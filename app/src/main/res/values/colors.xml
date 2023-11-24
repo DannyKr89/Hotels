@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_surface_color">#F6F6F9</color>
+    <color name="rating_color">#FFA800</color>
+    <color name="address_color">#0D72FF</color>
+    <color name="black_90a">#E6000000</color>
+    <color name="second_surface_color">#FBFBFC</color>
+    <color name="grey">#828796</color>
+    <color name="dark_grey">#2C3035</color>
+    <color name="dash">#26828796</color>
+
+
+</resources>
