@@ -1,4 +1,4 @@
-package com.dk.hotels.ui.hotel
+package com.dk.hotels.ui.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

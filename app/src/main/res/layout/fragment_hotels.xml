@@ -67,8 +67,7 @@
                 android:fontFamily="@font/sf_display_pro"
                 android:textColor="@color/black"
                 android:textSize="22sp"
-                android:textStyle="bold"
-                tools:text="Steigenberger Makadi" />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tv_hotel_address"
@@ -92,8 +91,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/sf_display_pro"
                     android:textColor="@color/black"
-                    android:textSize="30sp"
-                    tools:text="от 134 673 ₽" />
+                    android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/tv_hotel_price_for_it"
@@ -102,7 +100,6 @@
                     android:fontFamily="@font/sf_display_pro"
                     android:paddingStart="8dp"
                     android:textSize="16sp"
-                    tools:text="за тур с перелётом"
                     tools:ignore="RtlSymmetry" />
             </LinearLayout>
 
@@ -328,6 +325,7 @@
             android:padding="16dp">
 
             <Button
+                android:id="@+id/btn_choose_number"
                 style="@style/My.Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
