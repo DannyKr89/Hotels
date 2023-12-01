@@ -1,4 +1,4 @@
-package com.dk.hotels.data.model
+package com.dk.hotels.data.model.hotel
 
 data class AboutTheHotel(
     val description: String,

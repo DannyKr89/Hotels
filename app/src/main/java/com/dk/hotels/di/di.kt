@@ -2,8 +2,10 @@ package com.dk.hotels.di
 
 import com.dk.hotels.data.repository.RemoteHotelsRepositoryImpl
 import com.dk.hotels.data.retrofit.HotelsApi
+import com.dk.hotels.ui.adapters.ImageAdapter
+import com.dk.hotels.ui.adapters.RoomsAdapter
 import com.dk.hotels.ui.hotel.HotelsViewModel
-import com.dk.hotels.ui.hotel.ImageAdapter
+import com.dk.hotels.ui.rooms.RoomsViewModel
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
@@ -24,7 +26,10 @@ val appModule = module {
 
     single { RemoteHotelsRepositoryImpl(get()) }
 
-    viewModel { HotelsViewModel(get()) }
+    viewModel<HotelsViewModel> { HotelsViewModel(get()) }
 
-    single { ImageAdapter() }
+    single<ImageAdapter> { ImageAdapter() }
+    single<RoomsAdapter> { RoomsAdapter(get()) }
+
+    viewModel<RoomsViewModel> { RoomsViewModel(get()) }
 }
